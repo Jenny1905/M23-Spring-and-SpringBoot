@@ -20,6 +20,7 @@ public class StudentController {
 	@Autowired
 	private StudentService service;
 	
+	//RESTful API
 	//creation
 	@PostMapping("/student")
 	public void add(@RequestBody Student s)
